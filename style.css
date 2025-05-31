@@ -7,9 +7,9 @@
 }
 h1 {
     font-size: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, serif;
-    color: rgb(245, 150, 245);
-    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 89, 141);
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
 }
 
 body {
@@ -28,7 +28,7 @@ table {
 }
 th, td {
     
-    color: rgb(142, 0, 173);
+    color: rgb(255, 255, 255);
     border: 1px solid rgb(0, 0, 0);
     padding-inline: 2px;
     font-size: 0.9em;
@@ -48,21 +48,21 @@ button {
     margin: 5px auto auto auto;
     font-weight: bold;
     width: 98vw;
-    color: rgb(142, 0, 173);
-    background-color: rgba(248, 195, 255, 0.61);
-    border: 1px solid rgb(35, 0, 43);
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 104, 202, 0.918);
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
        
 }
 button:hover {
-    color: rgb(245, 150, 245);
-    background-color: rgb(87, 0, 107, 0.61);
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 49, 185, 0.89);
     
 }
 a {
-    color: rgb(87, 0, 107);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 a:hover {
@@ -102,10 +102,10 @@ p {
 #treinob,
 #treinoc,
 #treinod {
-    color: rgb(142, 0, 173);
+    color: rgba(0, 45, 112, 0.829);
     width: auto;
     max-height: 0;
-    background-color: rgba(255, 201, 249, 0.425);
+    background-color: rgba(0, 45, 112, 0.829);
     transition: max-height .5s ease;
     overflow: hidden; /* Garante que o conteúdo não ultrapasse o container */
 }
