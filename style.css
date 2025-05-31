@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+* {
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+h1 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, serif;
+    color: rgb(245, 150, 245);
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+}
+
+body {
+    color: rgb(9, 4, 10);
+    background-image: url(../treino-camila/img/bkacg.jfif);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 470px;
+    max-width: 450px;
+    width: 98vw;
+}
+
+table { 
+    border-collapse: collapse;
+
+}
+th, td {
+    
+    color: rgb(142, 0, 173);
+    border: 1px solid rgb(0, 0, 0);
+    padding-inline: 2px;
+    font-size: 0.9em;
+    
+}
+
+.ser, .rep, .rest {
+    width: auto;
+
+    
+}
+.ex {
+    width: 98vw;
+}
+button {
+    max-width: 450px;
+    margin: 5px auto auto auto;
+    font-weight: bold;
+    width: 98vw;
+    color: rgb(142, 0, 173);
+    background-color: rgba(248, 195, 255, 0.61);
+    border: 1px solid rgb(35, 0, 43);
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+       
+}
+button:hover {
+    color: rgb(245, 150, 245);
+    background-color: rgb(87, 0, 107, 0.61);
+    
+}
+a {
+    color: rgb(87, 0, 107);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+p {
+    padding-top: 10px;
+}
+
+#myIframe {
+    overflow: hidden;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+#div.show {
+    height: 360px;
+    transition: height .5s ease;
+    overflow: hidden;
+}
+
+/* Ajustes para a div do iframe */
+#div {
+    height: 0px;
+    border-radius: 10px;
+    margin: auto auto auto auto;
+    max-width: 360px;
+    /*height: 360px;*/
+    transition: height .5s ease;
+    overflow: hidden; /* Garante que o conteúdo não ultrapasse o container */
+}
+
+/* Estilo das tabelas */
+#treinoa,
+#treinob,
+#treinoc,
+#treinod {
+    color: rgb(142, 0, 173);
+    width: auto;
+    max-height: 0;
+    background-color: rgba(255, 201, 249, 0.425);
+    transition: max-height .5s ease;
+    overflow: hidden; /* Garante que o conteúdo não ultrapasse o container */
+}
+
+#treinoa.show,
+#treinob.show,
+#treinoc.show,
+#treinod.show  {
+    max-height: 22em;
+}
+
+p {
+    color: white;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+#par {
+    border-radius: 5px;
+    width: max-content;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 3px;
+    background-color: rgba(255, 0, 0, 0.644);
+}
